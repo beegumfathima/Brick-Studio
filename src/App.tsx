@@ -7,6 +7,7 @@ import BrickAnimation from './components/BrickAnimation';
 import VisionSection from './components/sections/VisionSection';
 import ServicesSection from './components/sections/ServicesSection';
 import ContactSection from './components/sections/ContactSection';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   useEffect(() => {
@@ -57,6 +58,7 @@ export default function App() {
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
