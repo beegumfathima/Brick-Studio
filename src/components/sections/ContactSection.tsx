@@ -44,8 +44,8 @@ export default function ContactSection() {
                 <div className="w-1 h-1 bg-white/30 rounded-full mt-2" />
                 <div>
                   <div className="text-xs text-white/30 mb-1 tracking-wider">EMAIL</div>
-                  <a href="mailto:hello@brickstudio.co" className="text-base md:text-lg hover:text-white/80 transition-colors">
-                    hello@brickstudio.co
+                  <a href="mailto:info.thebrickstudios@gmail.com" className="text-base md:text-lg hover:text-white/80 transition-colors">
+                    info.thebrickstudios@gmail.com
                   </a>
                 </div>
               </div>
