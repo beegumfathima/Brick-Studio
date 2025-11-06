@@ -49,7 +49,7 @@ export default function App() {
       <footer className="border-t border-white/10 py-12 px-6 md:px-16 lg:px-24">
         <div className="max-w-[1400px] mx-auto flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-white/40">
           <div>
-            © 2024 The Brick Studio. All rights reserved.
+            © 2025 The Brick Studio. All rights reserved.
           </div>
           <div className="flex items-center gap-8">
             <a href="#philosophy" className="hover:text-white/60 transition-colors">Philosophy</a>
