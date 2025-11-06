@@ -8,7 +8,7 @@ export default function ServicesPage() {
         <title>Branding, Design & Video Services — Brick Studio</title>
         <meta
           name="description"
-          content="Discover Brick Studio's global creative services — brand identity, UI/UX design, video editing, and post-production for brands across the US, UK, EMEA, and the Middle East."
+          content="Discover Brick Studio’s global creative services — brand identity, UI/UX design, video editing, and post-production for brands across the US, UK, EMEA, and the Middle East."
         />
         <meta
           name="keywords"
@@ -18,8 +18,8 @@ export default function ServicesPage() {
         {/* ======= Social / OG ======= */}
         <meta property="og:title" content="Brick Studio Services — Branding, Design & Motion" />
         <meta property="og:description" content="Creative branding, UI/UX, and motion design services for global brands." />
-        <meta property="og:image" content="https://brick-studio-8295n9iz3-fathima-beegums-projects.vercel.app/og-services.jpg" />
-        <meta property="og:url" content="https://brick-studio-8295n9iz3-fathima-beegums-projects.vercel.app/services" />
+        <meta property="og:image" content="https://your-domain.com/og-services.jpg" />
+        <meta property="og:url" content="https://brick-studio-nine.vercel.app/services" />
 
         {/* ======= Structured Data ======= */}
         <script type="application/ld+json">{`
@@ -30,7 +30,7 @@ export default function ServicesPage() {
             "provider": {
               "@type": "Organization",
               "name": "Brick Studio",
-              "url": "https://brick-studio-8295n9iz3-fathima-beegums-projects.vercel.app"
+              "url": "https://brick-studio-nine.vercel.app"
             },
             "areaServed": ["US","UK","Europe","Middle East","South Africa"],
             "description": "Global creative services including brand identity design, UI/UX, video editing, and post-production."
@@ -49,12 +49,6 @@ export default function ServicesPage() {
       </p>
 
       {/* Your current Services page layout stays untouched */}
-      <div className="min-h-screen bg-black text-white flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-4xl font-bold mb-4">Services</h1>
-          <p className="text-lg">Coming soon...</p>
-        </div>
-      </div>
     </>
   );
 }
